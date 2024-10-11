@@ -1,39 +1,67 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Sydney Sobomabo | WDD 130</title>
-  <meta name="description" content="Sydney Sobomabo's BYU-Idaho WDD 130 Course Home page">
-  <meta name ="author" content="Sydney Sobomabo"
-  <link rel="stylesheet" href="styles/styles.css">
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="wwr/">White Water Rafting Website</a>
-      <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-      <a href="/about.html">About us</a>
-    
-    </nav>
-  </header>
-  <main>
-    <h1>Sydney Sobomabo | WDD 130</h1>
-    <img src="WDD130/images/profile.jpg" alt="Hello, my name is Sydney Sobomabo" width="200">  
-    <p>Hello! My name is Sydney Sobomabo and i am from rivers state, Nigeria </p>  
-  </main>    
-
-  <aside>
-    <h2>Nigeria</h2>
-    <img src="WDD130/images/OIP.jpeg" alt="Nigeria">
-    <p>"Nigeria, Rivers[a] officially the Federal Republic of Nigeria, is a country in West Africa.It is situated between the Sahel to the north and the Gulf of Guinea to the south in the Atlantic Ocean. It covers an area of 923,769 square kilometres (356,669 sq mi). 
-     With a population of more than 230 million, it is the most populous country in Africa, and the world's sixth-most populous country." -wiki</p>
- </aside>
-
- <footer>
-   <p>©2024</span> ❀ Sydney Sobomabo ❀ Rivers, Nigeria</p>
-  </footer>
-</body> 
-</html>  
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Practice</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <body>
+    <header>
+      <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\wwr.png" alt="">
+     <nav>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">about Us</a></li>
+         <li><a href="#">Trips</a></li>
+         <li><a href="#">contact us</a</li>
+     </nav>
+    </header>
+      <main>
+        <div class="hero">
+          <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\th (3).jpeg" alt="...">
+          <h1>White Water Rafting </h1>
+          <article>
+            <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\rafting47_600.jpg" alt="...">
+            <p>Your talent determines what you can do...If we have the attitude that its going to be a great day, it usually is.</p>
+          </article>
+        </div>
+        <section>
+          <h2>History</h2>
+          <p> White water rafting traces its roots back to early human civilizations that navigated turbulent rivers for transportation and exploration. Modern-day rafting as a recreational sport emerged in the mid-20th century, gaining popularity thanks to innovative equipment and river classifications.</p>
+        </section>
+        <section>
+          <h2>Adventure Awaits You!</h2>
+          <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\rafting15_600.jpg" alt="Beginning of an Adventure">
+          <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\rafting42_600.jpg" alt="Great day">
+          <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\rafting33_600.jpg" alt="Water Slide">
+          <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\river-portrait.jpg" alt="Rocky Water">
+          <img src="C:\Users\ACER\Desktop\BYUI\WDD130\wwr\images\rafting59_600.jpg" alt="Happy People">
+        </section>
+      </main>
+      <footer>
+        <p>©2024</span> White Water Rafting Sydney Sobomabo ❀</p>
+       </footer>
+       <nav class="sociallinks">
+        <a href="https://facebook.com">
+         <span><img src="images/facebook.svg" alt="Facebook"></span>
+        </a>
+        <a href="https://twitter.com">
+          <span></span><img src="images/twitter.svg" alt="Twitter"></span>
+        </a>
+        <a href="https://instagram.com">
+          <span><img src="images/instagram.svg" alt="Instagram"></span>
+        </a>
+      </nav>
+              
+    </a>
+</a>
+</nav>
+</body>
+</html>
